@@ -119,10 +119,15 @@ namespace BlogEngine
 
         private void PictureBox5_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //Login m = new Login();
-            //m.Show();
-            
+            this.Hide();
+            Login m = new Login();
+            m.Show();
+
+        }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
     }

@@ -33,16 +33,16 @@
             this.lgnpanel = new System.Windows.Forms.Panel();
             this.signupButton = new System.Windows.Forms.Button();
             this.loginButton = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.passTextBox = new System.Windows.Forms.TextBox();
             this.userTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lgnpanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -59,9 +59,9 @@
             // lgnpanel
             // 
             this.lgnpanel.BackColor = System.Drawing.Color.White;
+            this.lgnpanel.Controls.Add(this.pictureBox3);
             this.lgnpanel.Controls.Add(this.signupButton);
             this.lgnpanel.Controls.Add(this.loginButton);
-            this.lgnpanel.Controls.Add(this.pictureBox2);
             this.lgnpanel.Controls.Add(this.passTextBox);
             this.lgnpanel.Controls.Add(this.userTextBox);
             this.lgnpanel.Controls.Add(this.pictureBox1);
@@ -107,17 +107,6 @@
             this.loginButton.Text = "&Login";
             this.loginButton.UseVisualStyleBackColor = false;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(63, 144);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 31);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
             // 
             // passTextBox
             // 
@@ -185,6 +174,17 @@
             this.rectangleShape1.Name = "rectangleShape1";
             this.rectangleShape1.Size = new System.Drawing.Size(260, 106);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(67, 141);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(33, 31);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,8 +202,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.lgnpanel.ResumeLayout(false);
             this.lgnpanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -212,7 +212,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel lgnpanel;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox passTextBox;
         private System.Windows.Forms.TextBox userTextBox;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -221,6 +220,7 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
         private System.Windows.Forms.Button loginButton;
         private System.Windows.Forms.Button signupButton;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

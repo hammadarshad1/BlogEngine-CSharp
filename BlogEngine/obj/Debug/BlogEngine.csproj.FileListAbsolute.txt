@@ -36,4 +36,4 @@ C:\Users\Hammad\Downloads\Compressed\BlogEngine\BlogEngine\obj\Debug\BlogEngine.
 C:\Users\Hammad\Downloads\Compressed\BlogEngine\BlogEngine\obj\Debug\BlogEngine.Dashboard.resources
 C:\Users\Hammad\Downloads\Compressed\BlogEngine\BlogEngine\bin\Debug\Bunifu_UI_v1.52.dll
 C:\Users\Hammad\Downloads\Compressed\BlogEngine\BlogEngine\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
-C:\Users\Hammad\Downloads\Compressed\BlogEngine\BlogEngine\obj\Debug\BlogEngine.test.resources
+C:\Users\Hammad\Downloads\Compressed\BlogEngine\BlogEngine\obj\Debug\BlogEngine.SplashScreen.resources
